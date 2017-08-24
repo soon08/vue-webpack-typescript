@@ -1,5 +1,13 @@
 # Change log
 
+## [v0.9.0] (2017-08-24)
+
+**Features**
+
+* Add [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) for creating HTML files
+* Add webpack loaders for loading sass styles
+* Add [favicon webpack generator](https://github.com/jantimon/favicons-webpack-plugin) for creating favicons and icons!
+
 ## [v0.8.0] (2017-08-24)
 
 **Features**

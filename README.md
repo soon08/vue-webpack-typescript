@@ -1,4 +1,4 @@
-# Vue-cli Typescript Webpack 模版
+# Vue-cli Typescript Webpack 模版
 
 > 此模版fork自[ducksoupdev/vue-webpack-typescript](https://github.com/ducksoupdev/vue-webpack-typescript). 因为本人的一些癖好做了一些修改.
 
@@ -8,7 +8,7 @@
 
 > 请使用node 6版本及以上，npm3版本及以上.
 
-### 模版里都有啥
+### 模版里都有啥
 
 - Vue 2.4
 - Webpack 3.5
@@ -28,7 +28,7 @@ $ npm run dev
 
 ### 模版中包含的命令
 
-- `npm run dev`: 运行热加载的开发态
+- `npm run dev`: 运行热加载的开发态
 - `npm test`: Mocha 单元测试
 - `npm run test:debug`: 在Chrome中Debug Mocha
 - `npm run test:watch`: 热加载测试

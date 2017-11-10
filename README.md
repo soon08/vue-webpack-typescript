@@ -13,6 +13,7 @@
 - Vue 2.4
 - Webpack 3.5
 - Typescript 2.4
+- Bootstrap 3.3.7
 
 ### 模版的用法
 

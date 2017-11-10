@@ -21,6 +21,8 @@ const purifyCss = new PurifyCSSPlugin({
   paths: glob.sync(path.join(__dirname, '../src/**/*.html')),
   purifyOptions: {
     info: true,
+		minify: true,
+		rejected: true,
     whitelist: []
   }
 });
@@ -58,11 +60,11 @@ webpackConfig.module.rules = [...webpackConfig.module.rules,
   },
   {
     test: /\.(jpg|png|gif)$/,
-    loader: 'file-loader?name=assets/img/[name].[ext]'
+    loader: 'file-loader?name=/assets/img/[name].[ext]'
   },
   {
     test: /\.(eot|svg|ttf|woff|woff2)$/,
-    loader: 'file-loader?name=fonts/[name].[ext]'
+    loader: 'file-loader?name=/fonts/[name].[ext]'
   }
 ];
 
